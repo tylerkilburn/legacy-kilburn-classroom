@@ -1,0 +1,4 @@
+node_modules
+.jshintrc
+.git
+src/public/css/main.css
