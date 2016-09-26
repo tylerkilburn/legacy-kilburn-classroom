@@ -1,3 +1,5 @@
+const SERVER_PORT = 3000;
+
 var express = require('express');
 
 var app = express();
@@ -93,6 +95,6 @@ app.get('/', function (req, res) {
 });
 
 //Listen on port
-app.listen(3000, function () {
-  console.log('Server listening on port 3000!');
+app.listen(SERVER_PORT, function () {
+  console.log('Server listening on port ' + SERVER_PORT + '!');
 });
