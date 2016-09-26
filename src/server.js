@@ -1,4 +1,4 @@
-const SERVER_PORT = 3000;
+const SERVER_PORT = 5000;
 
 var express = require('express');
 
@@ -95,6 +95,6 @@ app.get('/', function (req, res) {
 });
 
 //Listen on port
-app.listen(SERVER_PORT, function () {
-  console.log('Server listening on port ' + SERVER_PORT + '!');
+app.listen(process.env.PORT || SERVER_PORT, function () {
+  console.log('Server listening on port ' + process.env.PORT || SERVER_PORT + '!');
 });
