@@ -83,6 +83,8 @@ app.get('/', function (req, res) {
       studentData.data
         .map(function(student) {
           student.lastName = student.lastName.substring(0,1) + '.';
+          if(student.nickname !== "")
+            student.firstName = student.nickname;
           return student;
         })
         .filter(function(student) {
@@ -96,5 +98,5 @@ app.get('/', function (req, res) {
 
 //Listen on port
 app.listen(process.env.PORT || SERVER_PORT, function () {
-  console.log('Server listening on port ' + process.env.PORT || SERVER_PORT + '!');
+  console.log('Server listening on port ' + SERVER_PORT + '!');
 });
