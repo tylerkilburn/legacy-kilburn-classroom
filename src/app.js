@@ -16,7 +16,6 @@ const middleware = require('./middleware');
 const services = require('./services');
 
 const routes = require('./routes');
-const hbs = require('hbs');
 
 const app = feathers();
 
@@ -25,6 +24,7 @@ app.configure(configuration(path.join(__dirname, '..')));
 app.use(compress())
   .use(favicon( path.join(app.get('public'), 'favicon.ico') ))
   //.use('/', serveStatic( app.get('public') ))
+  .use(feathers.static(__dirname + '/public'))
   .use(bodyParser.json())
   .use(bodyParser.urlencoded({ extended: true }))
   .configure(rest())

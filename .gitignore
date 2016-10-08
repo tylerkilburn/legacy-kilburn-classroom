@@ -28,4 +28,7 @@ node_modules
 .lock-wscript
 
 lib/
-data/
+data/users.db
+
+#JS Hint to be stored locally.
+.jshintrc

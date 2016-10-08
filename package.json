@@ -18,11 +18,13 @@
   "scripts": {
     "test": "npm run jshint && npm run mocha",
     "jshint": "jshint src/. test/. --config",
-    "start": "node src/",
+    "build-css": "node-sass --output-style compressed -o src/public/css src/scss",
+    "start": "npm run build-css && node src/",
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
+    "build-css": "^0.2.0",
     "compression": "^1.6.2",
     "feathers": "^2.0.2",
     "feathers-authentication": "^0.7.11",
@@ -43,6 +45,7 @@
   "devDependencies": {
     "jshint": "^2.9.3",
     "mocha": "^3.1.0",
+    "node-sass": "^3.10.1",
     "request": "^2.75.0"
   }
 }
