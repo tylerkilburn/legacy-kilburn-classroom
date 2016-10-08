@@ -7,12 +7,6 @@
       "period": 1
     },
     {
-      "lastName": "Ashrifeh",
-      "firstName": "Lubna",
-      "nickname": "",
-      "period": 1
-    },
-    {
       "lastName": "Ayres",
       "firstName": "Delaney",
       "nickname": "",
@@ -113,6 +107,12 @@
       "firstName": "Lillian",
       "nickname": "Lilli",
       "period": 1
+    },
+    {
+      "lastName": "Ashrifeh",
+      "firstName": "Lubna",
+      "nickname": "",
+      "period": 4
     },
     {
       "lastName": "Canfield",
@@ -531,12 +531,6 @@
     {
       "lastName": "McDonald",
       "firstName": "Erin",
-      "nickname": "",
-      "period": 7
-    },
-    {
-      "lastName": "Mosley",
-      "firstName": "Maya",
       "nickname": "",
       "period": 7
     },
