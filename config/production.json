@@ -1,6 +1,6 @@
 {
   "host": "kilburn-classroom-app.feathersjs.com",
-  "port": 80,
+  "port": 5000,
   "nedb": "NEDB_BASE_PATH",
   "public": "../public/",
   "auth": {
