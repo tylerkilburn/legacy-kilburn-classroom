@@ -16,7 +16,7 @@
     "test": "npm run jshint && npm run mocha",
     "jshint": "jshint src/. test/. --config",
     "build-css": "node-sass --output-style compressed -o src/public/css src/scss",
-    "start": "npm run build-css && node src/index.js"
+    "start": "npm run build-css && node src/index.js",
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
