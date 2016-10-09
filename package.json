@@ -1,12 +1,9 @@
 {
   "name": "kilburn-classroom",
   "description": "",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "homepage": "",
-  "main": "src/",
-  "keywords": [
-    "feathers"
-  ],
+  "main": "src/index.js",
   "license": "MIT",
   "repository": {},
   "author": {},
@@ -19,7 +16,7 @@
     "test": "npm run jshint && npm run mocha",
     "jshint": "jshint src/. test/. --config",
     "build-css": "node-sass --output-style compressed -o src/public/css src/scss",
-    "start": "npm run build-css && node src/",
+    "start": "npm run build-css && node src/index.js"
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
