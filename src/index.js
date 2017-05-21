@@ -1,9 +1,8 @@
-'use strict';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+import './css/bundle.css';
 
-const app = require('./app');
-const port = app.get('port');
-const server = app.listen(process.env.PORT);
-
-server.on('listening', () =>
-  console.log(`Feathers application started on ${app.get('host')}:${port}`)
-);
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();

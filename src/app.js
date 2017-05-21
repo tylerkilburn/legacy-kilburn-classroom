@@ -1,44 +1,21 @@
-'use strict';
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-const path = require('path');
-const serveStatic = require('feathers').static;
-const favicon = require('serve-favicon');
-const compress = require('compression');
-const feathers = require('feathers');
-const configuration = require('feathers-configuration');
-const hooks = require('feathers-hooks');
-const rest = require('feathers-rest');
-const bodyParser = require('body-parser');
-const errors = require('feathers-errors');
-const errorHandler = require('feathers-errors/handler');
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <div className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h2>Welcome to React</h2>
+        </div>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+      </div>
+    );
+  }
+}
 
-const middleware = require('./middleware');
-const services = require('./services');
-
-const routes = require('./routes');
-
-const app = feathers();
-
-app.configure(configuration(path.join(__dirname, '..')));
-
-app.use(compress())
-  .use(favicon( path.join(app.get('public'), 'favicon.ico') ))
-  //.use('/', serveStatic( app.get('public') ))
-  .use(feathers.static(__dirname + '/public'))
-  .use(bodyParser.json())
-  .use(bodyParser.urlencoded({ extended: true }))
-  .configure(rest())
-  .configure(hooks())
-  .configure(routes)
-  //.configure(services)
-  //.configure(middleware)
-  .use(errorHandler({
-    // Using a custom error handler with our template engine
-    html: function(error, req, res, next) {
-      res.render('error', { error });
-    }
-  }));
-
-app.set('view engine', 'hbs');
-
-module.exports = app;
+export default App;

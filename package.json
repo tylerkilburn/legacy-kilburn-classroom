@@ -1,49 +1,25 @@
 {
-  "name": "kilburn-classroom",
-  "description": "",
-  "version": "0.2.0",
-  "homepage": "",
-  "main": "src/index.js",
-  "license": "MIT",
-  "repository": {},
-  "author": {},
-  "contributors": [],
-  "bugs": {},
-  "engines": {
-    "node": "6.3.1"
-  },
-  "scripts": {
-    "test": "npm run jshint && npm run mocha",
-    "jshint": "jshint src/. test/. --config",
-    "build-css": "node-sass --output-style compressed -o src/public/css src/scss",
-    "start": "npm run build-css && node src/index.js",
-    "mocha": "mocha test/ --recursive"
-  },
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "build-css": "^0.2.0",
-    "compression": "^1.6.2",
-    "feathers": "^2.0.2",
-    "feathers-authentication": "^0.7.11",
-    "feathers-configuration": "^0.3.3",
-    "feathers-errors": "^2.4.0",
-    "feathers-hooks": "^1.5.8",
-    "feathers-nedb": "^2.5.1",
-    "feathers-rest": "^1.5.0",
-    "hbs": "^4.0.1",
-    "lodash": "^4.16.4",
-    "nedb": "^1.8.0",
-    "passport": "^0.3.2",
-    "passport-google-oauth20": "^1.0.0",
-    "passport-google-token": "^0.1.2",
-    "routes": "^2.1.0",
-    "serve-favicon": "^2.3.0",
-    "winston": "^2.2.0"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
-    "jshint": "^2.9.3",
-    "mocha": "^3.1.0",
-    "node-sass": "^3.10.1",
-    "request": "^2.75.0"
+    "concurrently": "^3.4.0",
+    "node-sass": "^4.5.3",
+    "node-sass-chokidar": "0.0.1",
+    "nodemon": "^1.11.0",
+    "react-scripts": "1.0.3"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path scss src/css/scss/main.scss src/css/bundle.css --output-style compressed",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "zzz_eject": "react-scripts eject",
+    "watch": "concurrently --names \"webpack,node-scss\" --prefix name \"npm run start\" \"npm run watch-css\""
   }
 }
