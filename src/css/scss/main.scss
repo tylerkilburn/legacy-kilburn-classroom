@@ -4,11 +4,14 @@ body {
   font-family: sans-serif;
 }
 
-body {
-    color: red;
-    background: black;
-}
-
 .foobarmaster {
     color: pink;
+}
+
+.seating {
+  border: 1px solid black;
+}
+
+.seating__seat {
+  border: 1px solid black;
 }

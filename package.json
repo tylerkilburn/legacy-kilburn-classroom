@@ -7,6 +7,7 @@
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "concurrently": "^3.4.0",
     "enzyme": "^2.8.2",
     "eslint": "^3.19.0",
@@ -15,7 +16,11 @@
     "node-sass": "^4.5.3",
     "node-sass-chokidar": "0.0.1",
     "nodemon": "^1.11.0",
-    "react-scripts": "1.0.3"
+    "react-addons-test-utils": "^15.5.1",
+    "react-dom": "^15.5.4",
+    "react-scripts": "1.0.3",
+    "react-test-renderer": "^15.5.4",
+    "test": "mocha test/.setup.js **/*-spec.js"
   },
   "scripts": {
     "build-css": "node-sass --include-path scss src/css/scss/main.scss src/css/bundle.css --output-style compressed",
