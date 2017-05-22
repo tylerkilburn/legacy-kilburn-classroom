@@ -2,9 +2,9 @@ import { expect } from 'chai';
 import { addStudentsToSeats } from './helpers';
 
 const seatArrangement = {
-  bunches: 3,
-  columns: 3,
-  rows: 3,
+  bunches: 4,
+  columns: 4,
+  rows: 4,
 };
 
 const seatArrangementTotal =
@@ -45,31 +45,43 @@ const students = [
   { firstName: 'first30', lastName: 'last30' },
 ];
 
+const noStudentsInSeats = addStudentsToSeats([], seatArrangement);
 const studentsInSeats = addStudentsToSeats(students, seatArrangement);
 
-describe('addStudentsToSeats', () => {
+describe('Helper addStudentsToSeats', () => {
   it('should return an array', () => {
     expect(studentsInSeats).to.be.a('array');
   });
+
   it('should return a 3d array', () => {
     expect(studentsInSeats[0]).to.be.an('array');
     expect(studentsInSeats[0][0]).to.be.an('array');
   });
+
   it('should have first dimension length matching rows', () => {
     expect(studentsInSeats).lengthOf(seatArrangement.rows);
   });
+
   it('should have second dimension length matching columns', () => {
     expect(studentsInSeats[0]).lengthOf(seatArrangement.columns);
   });
+
   it('should have third dimension length matching bunches', () => {
     expect(studentsInSeats[0][0]).lengthOf(seatArrangement.bunches);
   });
+
   it('should have flat length matching total', () => {
     expect(studentsInSeats).lengthOf(seatArrangement.columns);
   });
+
   it('first student seat should equal first student', () => {
-    expect(studentsInSeats[0][0][0]).to.equal(students[0]);
+    expect(studentsInSeats[0][0][0]).to.deep.equal(students[0]);
   });
+
+  it('first student seat should equal empty object when no students', () => {
+    expect(noStudentsInSeats[0][0][0]).to.deep.equal({});
+  });
+
   it('should add all students that can fit', () => {
     const studentsThatFit = students.slice(0, seatArrangementTotal)
     let flatSeats = [].concat(...studentsInSeats);
