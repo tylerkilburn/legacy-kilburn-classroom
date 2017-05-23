@@ -7,11 +7,11 @@ export function addStudentsToSeats(students = [], seatArrangement = {}) {
     } = seatArrangement;
   const remainingStudents = [...students];
 
-  let arrRows = [];
+  const arrRows = [];
   for (let r = 0; r < rows; r++) {
-    let arrColumns = [];
+    const arrColumns = [];
     for (let c = 0; c < columns; c++) {
-      let arrBunches = [];
+      const arrBunches = [];
       for (let b = 0; b < bunches; b++) {
         arrBunches.push(remainingStudents.shift() || {});
       }

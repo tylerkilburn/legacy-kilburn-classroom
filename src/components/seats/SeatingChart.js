@@ -1,11 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Seat from './Seat';
+import SeatRow from './SeatRow';
+import { addStudentsToSeats } from './helpers';
+
 
 const SeatingChart = (props) => {
+    const studentsInSeats = addStudentsToSeats(props.students, props.seatArrangement);
     return (
-        <div className="seating">
-
+        <div className="seating__seating-chart">
+            {studentsInSeats.map((studentsInRow, index) => {
+                return (<SeatRow key={`row-${index}`}
+                    students = {studentsInRow}
+                />)
+            })}
         </div>
     );
 }

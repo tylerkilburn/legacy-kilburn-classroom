@@ -74,12 +74,12 @@ describe('Helper addStudentsToSeats', () => {
     expect(studentsInSeats).lengthOf(seatArrangement.columns);
   });
 
-  it('first student seat should equal first student', () => {
-    expect(studentsInSeats[0][0][0]).to.deep.equal(students[0]);
-  });
-
   it('first student seat should equal empty object when no students', () => {
     expect(noStudentsInSeats[0][0][0]).to.deep.equal({});
+  });
+
+  it('first student seat should equal first student', () => {
+    expect(studentsInSeats[0][0][0]).to.deep.equal(students[0]);
   });
 
   it('should add all students that can fit', () => {

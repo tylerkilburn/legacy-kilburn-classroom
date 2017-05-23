@@ -19,8 +19,7 @@
     "react-addons-test-utils": "^15.5.1",
     "react-dom": "^15.5.4",
     "react-scripts": "1.0.3",
-    "react-test-renderer": "^15.5.4",
-    "test": "mocha test/.setup.js **/*-spec.js"
+    "react-test-renderer": "^15.5.4"
   },
   "scripts": {
     "build-css": "node-sass --include-path scss src/css/scss/main.scss src/css/bundle.css --output-style compressed",

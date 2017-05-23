@@ -29,7 +29,7 @@ class App extends Component {
         <div className="wrapper">
           Main Content
           <SeatingChart
-            seats={this.state.seats}         
+            seatArrangement={this.state.seatArrangement}         
             students={this.state.students}
           />
         </div>
