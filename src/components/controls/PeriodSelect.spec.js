@@ -1,11 +1,13 @@
 import React from 'react';
 import { expect } from 'chai';
 import { shallow } from 'enzyme';
-import Seat from './Seat';
+import PeriodSelect from './PeriodSelect';
 
-describe('Seat', () => {
+const periods = [1, 2, 3];
+
+describe('PeriodSelect', () => {
     it('renders without exploding', () => {
-        const wrapper = shallow(<Seat />);
+        const wrapper = shallow(<PeriodSelect periods={periods} />);
         expect(wrapper.exists());
     });
     it('renders a student name if there is one');

@@ -1,17 +1,4 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
-.foobarmaster {
-    color: pink;
-}
-
-.seating {
-  border: 1px solid black;
-}
-
-.seating__seat {
-  border: 1px solid black;
-}
+@import "_color";
+@import "_controls";
+@import "_general";
+@import "_seating";

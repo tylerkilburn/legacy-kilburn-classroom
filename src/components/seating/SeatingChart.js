@@ -3,11 +3,10 @@ import PropTypes from 'prop-types';
 import SeatRow from './SeatRow';
 import { addStudentsToSeats } from './helpers';
 
-
 const SeatingChart = (props) => {
     const studentsInSeats = addStudentsToSeats(props.students, props.seatArrangement);
     return (
-        <div className="seating__seating-chart">
+        <div className="seating__chart">
             {studentsInSeats.map((studentsInRow, index) => {
                 return (<SeatRow key={`row-${index}`}
                     students = {studentsInRow}
@@ -18,7 +17,7 @@ const SeatingChart = (props) => {
 }
 
 SeatingChart.propTypes = {
-    students: PropTypes.array
+    students: PropTypes.array.isRequired
 }
 
 export default SeatingChart;

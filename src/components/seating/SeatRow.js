@@ -4,7 +4,7 @@ import SeatColumn from './SeatColumn';
 
 const SeatRow = (props) => {
     return (
-        <div className="seating__seat-row">
+        <div className="seating__row">
             {props.students.map((studentsInColumn, index) => {
                 return (<SeatColumn key={`column-${index}`}
                     students = {studentsInColumn}
@@ -15,7 +15,7 @@ const SeatRow = (props) => {
 }
 
 SeatRow.propTypes = {
-    students: PropTypes.array
+    students: PropTypes.array.isRequired
 }
 
 export default SeatRow;

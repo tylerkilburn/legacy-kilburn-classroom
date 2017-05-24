@@ -48,7 +48,7 @@ const students = [
 const noStudentsInSeats = addStudentsToSeats([], seatArrangement);
 const studentsInSeats = addStudentsToSeats(students, seatArrangement);
 
-describe('Helper addStudentsToSeats', () => {
+describe('Seating Helper addStudentsToSeats', () => {
   it('should return an array', () => {
     expect(studentsInSeats).to.be.a('array');
   });

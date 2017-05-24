@@ -32,3 +32,5 @@ data/users.db
 
 #JS Hint to be stored locally.
 .jshintrc
+
+**/bundle.css

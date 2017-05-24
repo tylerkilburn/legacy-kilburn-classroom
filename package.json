@@ -26,7 +26,7 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom --watchAll",
     "zzz_eject": "react-scripts eject",
     "watch": "concurrently --names \"webpack,node-scss\" --prefix name \"npm run start\" \"npm run watch-css\""
   }

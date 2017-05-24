@@ -5,14 +5,14 @@ import SeatingChart from './SeatingChart';
 import SeatRow from './SeatRow';
 
 const students = [
-    {firstName: 'first01', lastName: 'last01'},
-    {firstName: 'first02', lastName: 'last02'},
-    {firstName: 'first03', lastName: 'last03'},
-    {firstName: 'first04', lastName: 'last04'},
-    {firstName: 'first05', lastName: 'last05'},
-    {firstName: 'first06', lastName: 'last06'},
-    {firstName: 'first07', lastName: 'last07'},
-    {firstName: 'first08', lastName: 'last08'},
+    { firstName: 'first01', lastName: 'last01' },
+    { firstName: 'first02', lastName: 'last02' },
+    { firstName: 'first03', lastName: 'last03' },
+    { firstName: 'first04', lastName: 'last04' },
+    { firstName: 'first05', lastName: 'last05' },
+    { firstName: 'first06', lastName: 'last06' },
+    { firstName: 'first07', lastName: 'last07' },
+    { firstName: 'first08', lastName: 'last08' },
 ];
 
 const seatArrangement = {

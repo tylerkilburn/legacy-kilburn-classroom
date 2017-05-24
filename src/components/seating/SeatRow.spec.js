@@ -6,12 +6,12 @@ import SeatColumn from './SeatColumn';
 
 const students = [
     [
-        {firstName: 'first01', lastName: 'last01'},
-        {firstName: 'first02', lastName: 'last02'},
+        { firstName: 'first01', lastName: 'last01' },
+        { firstName: 'first02', lastName: 'last02' },
     ],
     [
-        {firstName: 'first03', lastName: 'last03'},
-        {firstName: 'first04', lastName: 'last04'},
+        { firstName: 'first03', lastName: 'last03' },
+        { firstName: 'first04', lastName: 'last04' },
     ],
 ]
 

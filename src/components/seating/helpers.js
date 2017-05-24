@@ -1,5 +1,4 @@
-
-export function addStudentsToSeats(students = [], seatArrangement = {}) {
+const addStudentsToSeats = (students = [], seatArrangement = {}) => {
   const {
         rows = 1,
         columns = 1,
@@ -21,4 +20,8 @@ export function addStudentsToSeats(students = [], seatArrangement = {}) {
   }
 
   return arrRows;
-}
+};
+
+export {
+  addStudentsToSeats,
+};
