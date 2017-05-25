@@ -5,12 +5,9 @@ const getPeriodsFromStudents = students => students.reduce((acc, curr) => {
   return acc;
 }, []).sort();
 
-const getStudentsInPeriod = (students, period) => {
-  return students.filter(student => student.period === period);
-};
+const getStudentsInPeriod = (students, period) => students.filter(student => student.period === period);
 
-const sortStudents = (students, sortOrder) => {
-  return students.sort((a, b) => {
+const sortStudents = (students, sortOrder) => students.sort((a, b) => {
     return sortOrder.reduce((prev, sorting) => {
       const aVal = typeof a[sorting] === 'string' ? a[sorting].toLowerCase() : a;
       const bVal = typeof b[sorting] === 'string' ? b[sorting].toLowerCase() : b;
@@ -24,10 +21,12 @@ const sortStudents = (students, sortOrder) => {
       return 0;
     }, 0);
   });
-};
+
+const shuffleStudents = students => [...students].sort(() => 0.5 - Math.random());
 
 export {
   getPeriodsFromStudents,
   getStudentsInPeriod,
+  shuffleStudents,
   sortStudents,
 };

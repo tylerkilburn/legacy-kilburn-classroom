@@ -2,6 +2,7 @@ import { expect } from 'chai';
 import {
     getPeriodsFromStudents,
     getStudentsInPeriod,
+    shuffleStudents,
     sortStudents,
 } from './helpers';
 
@@ -77,3 +78,11 @@ describe('Shared Helper sortStudents', () => {
   });
 });
 
+describe('Shared Helper shuffleStudents', () => {
+  it('should match when sorted', () => {
+    const sortedStudents = sortStudents(testStudents, ['lastName', 'firstName']);
+    const shuffledStudents = shuffleStudents(testStudents);
+    const shuffledStudentsSorted = sortStudents(shuffledStudents, ['lastName', 'firstName'])
+    expect(shuffledStudentsSorted).to.deep.equal(sortedStudents);
+  });
+});
