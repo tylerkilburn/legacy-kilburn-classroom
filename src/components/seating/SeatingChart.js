@@ -6,12 +6,15 @@ import { addStudentsToSeats } from './helpers';
 const SeatingChart = (props) => {
     const studentsInSeats = addStudentsToSeats(props.students, props.seatArrangement);
     return (
-        <div className="seating__chart">
-            {studentsInSeats.map((studentsInRow, index) => {
-                return (<SeatRow key={`row-${index}`}
-                    students = {studentsInRow}
-                />)
-            })}
+        <div className="seating">
+            <button className="button">Create Seating Chart</button>
+            <div className="seating__chart">
+                {studentsInSeats.map((studentsInRow, index) => {
+                    return (<SeatRow key={`row-${index}`}
+                        students = {studentsInRow}
+                    />)
+                })}
+            </div>
         </div>
     );
 }

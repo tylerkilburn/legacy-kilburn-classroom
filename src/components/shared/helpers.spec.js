@@ -2,6 +2,7 @@ import { expect } from 'chai';
 import {
     getPeriodsFromStudents,
     getStudentsInPeriod,
+    nameTag,
     shuffleStudents,
     sortStudents,
 } from './helpers';
@@ -39,6 +40,28 @@ describe('Shared Helper getStudentsInPeriod', () => {
       { firstName: 'first11', lastName: 'last11', period: 1 },
     ];
     expect(studentsInPeriod).to.deep.equal(expectedStudentsInPeriod);
+  });
+});
+
+describe('Shared Helper nameTag', () => {
+  it('should return empty string when no student provided', () => {
+    const studentSortNameEmpty = nameTag({});
+    const studentSortNameUndef = nameTag();
+    const expected = '';
+    expect(studentSortNameEmpty).to.equal(expected);
+    expect(studentSortNameUndef).to.equal(expected);
+  });
+  it('should return firstName, last initial', () => {
+    const student = { firstName: 'John', lastName: 'Smith' };
+    const studentSortName = nameTag(student);
+    const expected = 'John S.';
+    expect(studentSortName).to.equal(expected);
+  });
+  it('should return nickname, last initial', () => {
+    const student = { firstName: 'John', lastName: 'Smith', nickname: 'Jay' };
+    const studentSortName = nameTag(student);
+    const expected = 'Jay S.';
+    expect(studentSortName).to.equal(expected);
   });
 });
 

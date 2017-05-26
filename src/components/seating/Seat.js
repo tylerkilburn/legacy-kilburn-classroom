@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import { nameTag } from '../shared/helpers'
 const Seat = (props) => {
     return (
         <div className="seating__seat">
-            {props.student.firstName}
+            {nameTag(props.student)}
         </div>
     );
 }

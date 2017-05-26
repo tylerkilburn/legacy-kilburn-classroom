@@ -1,8 +1,6 @@
 $default-boarder-radius: 6px;
 
 .seating {
-    border: 1px solid black;
-
     &__chart {
         border-radius: $default-boarder-radius;
         border: 1px solid $grey;
