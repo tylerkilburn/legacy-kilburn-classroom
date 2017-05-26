@@ -3,7 +3,11 @@ import logo from '../logo.svg';
 import PeriodSelect from './controls/PeriodSelect';
 import SeatingChart from './seating/SeatingChart';
 import studentData from '../data/students.json';
-import { getPeriodsFromStudents } from './shared/helpers';
+import {
+  getPeriodsFromStudents,
+  getStudentsInPeriod,
+  shuffleStudents,
+} from './shared/helpers';
 import '../App.css';
 
 class App extends React.Component {
@@ -27,11 +31,18 @@ class App extends React.Component {
 
         // Bind Functions
         this.setPeriod = this.setPeriod.bind(this);
+        this.shuffleStudentSeatingForPeriod = this.shuffleStudentSeatingForPeriod.bind(this);
       }
 
-      setPeriod(period) {
+      setPeriod(period = 0) {
           const current = {...this.state.current};
-          current.period = period || 0;
+          current.period = period;
+          this.setState({ current });
+      }
+      shuffleStudentSeatingForPeriod() {
+          const current = {...this.state.current};
+          current.studentSeating = getStudentsInPeriod(this.state.students, this.state.current.period);
+          current.studentSeating = shuffleStudents(current.studentSeating);
           this.setState({ current });
       }
 
@@ -47,13 +58,15 @@ class App extends React.Component {
         
         <div className="wrapper">
           <PeriodSelect
-            periods={this.state.periods}
+            period={this.state.current.period}
+            periodOptions={this.state.periods}
             setPeriod={this.setPeriod}
           />
           
           <SeatingChart
-            seatArrangement={this.state.seatArrangement}         
+            seatArrangement={this.state.seatArrangement}   
             students={this.state.current.studentSeating}
+            shuffleStudentSeatingForPeriod={this.shuffleStudentSeatingForPeriod}
           />
         </div>
       </div>

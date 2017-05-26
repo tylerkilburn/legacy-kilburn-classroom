@@ -19,10 +19,11 @@ class PeriodSelect extends React.Component {
                 <label htmlFor="period_select" className="period_select__label">Period:</label>
                 <select
                     name="period_select" id="period_select" className="period_select__select"
+                    value={this.props.period}
                     onChange={this.handleChange}
                 >
                     <option value="">-Select a Period-</option>
-                    {this.props.periods.map((period, key) => {
+                    {this.props.periodOptions.map((period, key) => {
                         return <option key={key} value={period}>{period}</option>
                     })}
                 </select>
@@ -32,7 +33,7 @@ class PeriodSelect extends React.Component {
 }
 
 PeriodSelect.propTypes = {
-    periods: PropTypes.array.isRequired
+    periodOptions: PropTypes.array.isRequired
 }
 
 export default PeriodSelect;
