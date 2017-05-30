@@ -11,14 +11,13 @@ class SeatingChart extends React.Component {
 
     handleClick(evt) {
         this.props.shuffleStudentSeatingForPeriod();
-        console.log('🎆🎆🎆🎆🎆');
     }
 
     render() {
         const studentsInSeats = addStudentsToSeats(this.props.students, this.props.seatArrangement);
         return (
             <div className="seating">
-                <button className="button" onClick={this.handleClick}>Create Seating Chart</button>
+                <button className="button" onClick={this.handleClick}>Create New Seating Chart</button>
                 <div className="seating__chart">
                     {studentsInSeats.map((studentsInRow, index) => {
                         return (<SeatRow key={`row-${index}`}

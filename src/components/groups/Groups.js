@@ -1,7 +1,7 @@
 import React from 'react';
+import { groupStudents } from './helpers';
 
 class Groups extends React.Component {
-    state = {  }
     render() {
         return (
             <div></div>
