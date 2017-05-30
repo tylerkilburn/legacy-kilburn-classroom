@@ -16,18 +16,18 @@ const students = [
 ];
 
 const seatArrangement = {
-    bunches: 2,
-    columns: 2,
-    rows: 2,
+  bunches: 2,
+  columns: 2,
+  rows: 2,
 };
 
 describe('SeatingChart', () => {
-    it('renders without exploding', () => {
-        const wrapper = shallow(<SeatingChart students={students} seatArrangement={seatArrangement}/>);
-        expect(wrapper.exists());
-    });
-    it('contains at least one <SeatRow/> component', () => {
-        const wrapper = mount(<SeatingChart students={students} seatArrangement={seatArrangement}/>);
-        expect(wrapper.find(SeatRow)).to.have.length.least(1);
-    });
+  it('renders without exploding', () => {
+    const wrapper = shallow(<SeatingChart students={ students } seatArrangement={ seatArrangement } />);
+    expect(wrapper.exists());
+  });
+  it('contains at least one <SeatRow/> component', () => {
+    const wrapper = mount(<SeatingChart students={ students } seatArrangement={ seatArrangement } />);
+    expect(wrapper.find(SeatRow)).to.have.length.least(1);
+  });
 });

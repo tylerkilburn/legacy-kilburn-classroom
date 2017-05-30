@@ -83,7 +83,7 @@ describe('Seating Helper addStudentsToSeats', () => {
   });
 
   it('should add all students that can fit', () => {
-    const studentsThatFit = students.slice(0, seatArrangementTotal)
+    const studentsThatFit = students.slice(0, seatArrangementTotal);
     let flatSeats = [].concat(...studentsInSeats);
     flatSeats = [].concat(...flatSeats);
     const occupiedSeats = flatSeats.slice(0, studentsThatFit.length);

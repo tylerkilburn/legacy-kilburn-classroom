@@ -2,6 +2,7 @@ import { expect } from 'chai';
 import {
     getPeriodsFromStudents,
     getStudentsInPeriod,
+    groupStudents,
     nameTag,
     shuffleStudents,
     sortStudents,
@@ -109,3 +110,4 @@ describe('Shared Helper shuffleStudents', () => {
     expect(shuffledStudentsSorted).to.deep.equal(sortedStudents);
   });
 });
+
