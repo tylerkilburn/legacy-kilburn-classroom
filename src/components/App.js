@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../logo.svg';
-import Header from './auxiliary/Header';
+import Header from './Header/Header';
 import studentData from '../data/students.json';
 import Router from './Router';
 import {

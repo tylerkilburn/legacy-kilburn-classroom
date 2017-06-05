@@ -1,7 +1,7 @@
 import React from 'react';
 import { expect } from 'chai';
 import { mount, shallow } from 'enzyme';
-import SeatColumn from './SeatColumn';
+import SeatingColumn from './SeatingColumn';
 import Seat from './Seat';
 
 const students = [
@@ -9,14 +9,14 @@ const students = [
     { firstName: 'first02', lastName: 'last02' },
 ];
 
-describe('SeatColumn', () => {
+describe('SeatingColumn', () => {
   it('renders without exploding', () => {
-    const wrapper = shallow(<SeatColumn students={ students } />);
+    const wrapper = shallow(<SeatingColumn students={ students } />);
     expect(wrapper.exists());
   });
 
   it('contains at least one <Seat/> component', () => {
-    const wrapper = mount(<SeatColumn students={ students } />);
+    const wrapper = mount(<SeatingColumn students={ students } />);
     expect(wrapper.find(Seat)).to.have.length.least(1);
   });
 });

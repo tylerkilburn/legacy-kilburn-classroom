@@ -1,7 +1,7 @@
 import React from 'react';
 import { expect } from 'chai';
 import { shallow } from 'enzyme';
-import MenuBar from './MenuBar';
+import Menu from './Menu';
 
 const menuItems = [
   { name: 'Call On', route: '/callon' },
@@ -9,9 +9,9 @@ const menuItems = [
   { name: 'Seating Chart', route: '/seating' },
 ];
 
-describe('MenuBar', () => {
+describe('Menu', () => {
   it('renders without exploding', () => {
-    const wrapper = shallow(<MenuBar menuItems={ menuItems } />);
+    const wrapper = shallow(<Menu menuItems={ menuItems } />);
     expect(wrapper.exists());
   });
 });

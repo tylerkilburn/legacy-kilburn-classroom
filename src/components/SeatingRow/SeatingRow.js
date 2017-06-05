@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import SeatColumn from './SeatColumn';
+import SeatingColumn from '../SeatingColumn/SeatingColumn';
 
-const SeatRow = props => (
+const SeatingRow = props => (
   <div className="seating__row">
-    {props.students.map((studentsInColumn, index) => (<SeatColumn
+    {props.students.map((studentsInColumn, index) => (<SeatingColumn
       key={ `column-${index}` }
       students={ studentsInColumn }
     />))}
   </div>
 );
 
-SeatRow.propTypes = {
+SeatingRow.propTypes = {
   students: PropTypes.array.isRequired,
 };
 
-export default SeatRow;
+export default SeatingRow;

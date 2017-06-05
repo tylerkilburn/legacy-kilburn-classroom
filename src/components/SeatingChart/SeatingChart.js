@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import SeatRow from './SeatRow';
+import SeatingRow from '../SeatingRow/SeatingRow';
 import { addStudentsToSeats } from './helpers';
 
 class SeatingChart extends React.Component {
@@ -20,7 +20,7 @@ class SeatingChart extends React.Component {
                 <button className="button" onClick={this.handleClick}>Create New Seating Chart</button>
                 <div className="seating__chart">
                     {studentsInSeats.map((studentsInRow, index) => {
-                        return (<SeatRow key={`row-${index}`}
+                        return (<SeatingRow key={`row-${index}`}
                             students = {studentsInRow}
                         />)
                     })}

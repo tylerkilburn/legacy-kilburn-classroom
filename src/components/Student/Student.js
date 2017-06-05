@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { nameTag } from '../shared/helpers';
 
-const Seat = props => (
+const Student = props => (
   <div className="seating__seat">
     {nameTag(props.student)}
   </div>
 );
 
-Seat.propTypes = {
+Student.propTypes = {
   student: PropTypes.object.isRequired,
 };
 
-export default Seat;
+export default Student;

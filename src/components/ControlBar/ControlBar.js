@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import PeriodSelect from '../controls/PeriodSelect';
-import MenuBar from '../controls/MenuBar';
+import PeriodSelect from '../PeriodSelect/PeriodSelect';
+import Menu from '../Menu/Menu';
 
 
 const ControlBar = props => (
@@ -11,7 +11,7 @@ const ControlBar = props => (
       periodOptions={ props.periodOptions }
       setPeriod={ props.setPeriod }
     />
-    <MenuBar
+    <Menu
       menuItems={ props.menuItems }
     />
   </div>

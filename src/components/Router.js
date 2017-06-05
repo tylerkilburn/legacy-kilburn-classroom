@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import ControlBar from './auxiliary/ControlBar';
-import SeatingChart from './seating/SeatingChart';
-import Groups from './groups/Groups';
+import ControlBar from './ControlBar/ControlBar';
+import SeatingChart from './SeatingChart/SeatingChart';
+import Groups from './Groups/Groups';
 
 const Router = props => (
   <BrowserRouter>

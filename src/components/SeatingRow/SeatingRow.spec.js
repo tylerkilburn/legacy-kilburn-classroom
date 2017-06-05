@@ -1,8 +1,8 @@
 import React from 'react';
 import { expect } from 'chai';
 import { mount, shallow } from 'enzyme';
-import SeatRow from './SeatRow';
-import SeatColumn from './SeatColumn';
+import SeatingRow from './SeatingRow';
+import SeatingColumn from '../SeatingColumn/SeatingColumn';
 
 const students = [
   [
@@ -15,15 +15,15 @@ const students = [
   ],
 ];
 
-describe('SeatRow', () => {
+describe('SeatingRow', () => {
   it('renders without exploding', () => {
-    const wrapper = shallow(<SeatRow students={ students } />);
+    const wrapper = shallow(<SeatingRow students={ students } />);
     expect(wrapper.exists());
   });
 
-  it('contains at least one <SeatColumn/> component', () => {
-    const wrapper = mount(<SeatRow students={ students } />);
-    expect(wrapper.find(SeatColumn)).to.have.length.least(1);
+  it('contains at least one <SeatingColumn/> component', () => {
+    const wrapper = mount(<SeatingRow students={ students } />);
+    expect(wrapper.find(SeatingColumn)).to.have.length.least(1);
   });
 });
 
