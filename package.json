@@ -5,7 +5,8 @@
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -28,7 +29,8 @@
   "scripts": {
     "build-css": "node-sass --include-path scss src/css/scss/main.scss src/css/bundle.css --output-style compressed",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "start": "react-scripts start",
+    "start": "npm run watch",
+    "start-react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --watchAll",
     "zzz_eject": "react-scripts eject",

@@ -1,9 +1,8 @@
 import React from 'react';
 import logo from '../logo.svg';
 import Header from './auxiliary/Header';
-import ControlBar from './auxiliary/ControlBar';
-import SeatingChart from './seating/SeatingChart';
 import studentData from '../data/students.json';
+import Router from './Router';
 import {
   getPeriodsFromStudents,
   getStudentsInPeriod,
@@ -11,14 +10,16 @@ import {
 } from './shared/helpers';
 import '../App.css';
 
+
 class App extends React.Component {
   constructor() {
     super();
 
-        // InitialState
+    // InitialState
     this.state = {
       current: {
         period: 0,
+        studentsInPeriod: [],
         studentSeating: [],
       },
       periods: getPeriodsFromStudents(studentData),
@@ -30,7 +31,7 @@ class App extends React.Component {
       students: studentData,
     };
 
-        // Bind Functions
+    // Bind Functions
     this.setPeriod = this.setPeriod.bind(this);
     this.shuffleStudentSeatingForPeriod = this.shuffleStudentSeatingForPeriod.bind(this);
   }
@@ -38,12 +39,12 @@ class App extends React.Component {
   setPeriod(period = 0) {
     const current = { ...this.state.current };
     current.period = period;
+    current.studentsInPeriod = getStudentsInPeriod(this.state.students, period);
     this.setState({ current });
   }
   shuffleStudentSeatingForPeriod() {
     const current = { ...this.state.current };
-    current.studentSeating = getStudentsInPeriod(this.state.students, this.state.current.period);
-    current.studentSeating = shuffleStudents(current.studentSeating);
+    current.studentSeating = shuffleStudents(this.state.current.studentsInPeriod);
     this.setState({ current });
   }
 
@@ -53,23 +54,13 @@ class App extends React.Component {
         <Header
           siteName={ 'Mrs. Kilburn\'s Classroom' }
         />
-        <ControlBar
-          menuItems={ [
-            { name: 'Seating Chart', route: './seating-chart' },
-          ] }
-          period={ this.state.current.period }
-          periodOptions={ this.state.periods }
+        <Router
+          current={ this.state.current }
+          periods={ this.state.periods }
+          seatArrangement={ this.state.seatArrangement }
           setPeriod={ this.setPeriod }
+          shuffleStudentSeatingForPeriod={ this.shuffleStudentSeatingForPeriod }
         />
-
-        <div className="wrapper">
-
-          <SeatingChart
-            seatArrangement={ this.state.seatArrangement }
-            students={ this.state.current.studentSeating }
-            shuffleStudentSeatingForPeriod={ this.shuffleStudentSeatingForPeriod }
-          />
-        </div>
       </div>
     );
   }

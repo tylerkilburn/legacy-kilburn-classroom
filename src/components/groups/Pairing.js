@@ -4,7 +4,7 @@ class Pairing extends React.Component {
     state = {  }
     render() {
         return (
-            <div></div>
+            <div>Pair</div>
         );
     }
 }

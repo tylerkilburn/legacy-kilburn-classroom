@@ -27,7 +27,7 @@ describe('Shared Helper groupStudents', () => {
     const firstGroupSize = groupStudents(testStudents, groupSize)[0].length;
     expect(firstGroupSize).to.equal(groupSize);
   });
-  it('should return studens as provided when group size is zero', () => {
+  it('should return students as provided when group size is zero', () => {
     const groupSize = 0;
     const groupedStudents = groupStudents(testStudents, groupSize);
     expect(groupedStudents).to.deep.equal(testStudents);

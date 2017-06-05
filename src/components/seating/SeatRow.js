@@ -9,7 +9,7 @@ const SeatRow = props => (
       students={ studentsInColumn }
     />))}
   </div>
-    );
+);
 
 SeatRow.propTypes = {
   students: PropTypes.array.isRequired,
