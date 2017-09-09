@@ -175,12 +175,6 @@
 			"period": 2
 		},
 		{
-			"lastName": "Beckman",
-			"firstName": "Aiden",
-			"nickname": "",
-			"period": 2
-		},
-		{
 			"lastName": "Benita",
 			"firstName": "Isabella",
 			"nickname": "Izzy",
@@ -349,6 +343,12 @@
 			"period": 3
 		},
 		{
+			"lastName": "Beckman",
+			"firstName": "Aiden",
+			"nickname": "",
+			"period": 3
+		},
+		{
 			"lastName": "Cage",
 			"firstName": "Mason",
 			"nickname": "",
@@ -435,7 +435,7 @@
 		{
 			"lastName": "Barker",
 			"firstName": "Christian",
-			"nickname": "Chris",
+			"nickname": "",
 			"period": 4
 		},
 		{
@@ -519,7 +519,7 @@
 		{
 			"lastName": "Marandure",
 			"firstName": "Michael",
-			"nickname": "",
+			"nickname": "Mikey",
 			"period": 4
 		},
 		{
@@ -567,6 +567,12 @@
 		{
 			"lastName": "Abaca",
 			"firstName": "Casey",
+			"nickname": "",
+			"period": 5
+		},
+		{
+			"lastName": "Bereyl",
+			"firstName": "Landon",
 			"nickname": "",
 			"period": 5
 		},
