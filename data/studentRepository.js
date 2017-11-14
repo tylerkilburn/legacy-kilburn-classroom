@@ -1,7 +1,7 @@
 var studentData = require('../data/students.json');
 
 module.exports.getByPeriod = (period) => {
-  return studentData.data
+  return studentData
     .map(function(student) {
       student.lastName = student.lastName.substring(0,1) + '.';
       if(student.nickname !== '') {
