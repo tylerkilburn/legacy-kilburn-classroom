@@ -1,728 +1,776 @@
 [
   {
-    "lastName": "Bartlett",
-    "firstName": "Joseph",
-    "nickname": "Joe",
-    "period": 1
+    "firstName": "Garrett",
+    "lastName": "Alonge",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Bender",
-    "firstName": "Grace",
-    "nickname": "",
-    "period": 1
+    "firstName": "Samuel",
+    "lastName": "Bell",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Bennett",
-    "firstName": "Madison",
-    "nickname": "Madi",
-    "period": 1
+    "firstName": "Rachel",
+    "lastName": "Boyce",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Blaylock",
-    "firstName": "Alexander",
-    "nickname": "Bryce",
-    "period": 1
+    "firstName": "Dylan",
+    "lastName": "Brown",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Boyd",
-    "firstName": "Caitriona",
-    "nickname": "Caitie",
-    "period": 1
+    "firstName": "Jessica",
+    "lastName": "Calhoun",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Bravo",
-    "firstName": "Iben",
-    "nickname": "",
-    "period": 1
+    "firstName": "Aashi",
+    "lastName": "Chhabra",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Brazy",
-    "firstName": "Ella",
-    "nickname": "",
-    "period": 1
+    "firstName": "Chasityn",
+    "lastName": "Christensen",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Castaneda",
-    "firstName": "Cindy",
-    "nickname": "",
-    "period": 1
+    "firstName": "Ashton",
+    "lastName": "Evans",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Davidson",
-    "firstName": "Jakobi",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Estrada",
-    "firstName": "Aiden",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Franklin",
-    "firstName": "McKenna",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Frascione",
-    "firstName": "Kylie",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Harris",
-    "firstName": "Cooper",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Herrera",
-    "firstName": "Aiden",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Hollis",
-    "firstName": "Lei-Lani",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Jean-Baptiste",
-    "firstName": "Christopher",
-    "nickname": "Chris",
-    "period": 1
-  },
-  {
-    "lastName": "Ly",
-    "firstName": "Grace",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "McClure",
-    "firstName": "Ian",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "McMillan",
-    "firstName": "Morgan",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Pena",
-    "firstName": "Kiley",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Rupert",
-    "firstName": "Benjamin",
-    "nickname": "Ben",
-    "period": 1
-  },
-  {
-    "lastName": "Scott",
-    "firstName": "Jordan",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Shahin",
-    "firstName": "Ryan",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Simms",
-    "firstName": "Hannah",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Son",
-    "firstName": "Marguerite",
-    "nickname": "Maggie",
-    "period": 1
-  },
-  {
-    "lastName": "Sweeney",
-    "firstName": "Erin",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Tait",
-    "firstName": "Emma",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Ziemba",
-    "firstName": "Rowan",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Zola",
-    "firstName": "Francesca",
-    "nickname": "",
-    "period": 1
-  },
-  {
-    "lastName": "Ankrum",
-    "firstName": "Rosaria",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Benita",
     "firstName": "Isabella",
-    "nickname": "Izzy",
-    "period": 2
+    "lastName": "Ferrari",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Best",
-    "firstName": "Isabella",
-    "nickname": "Bella",
-    "period": 2
+    "firstName": "Madeleine",
+    "lastName": "Frame",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Boudjerada",
-    "firstName": "Muhammed",
-    "nickname": "",
-    "period": 2
+    "firstName": "Lilly",
+    "lastName": "Haidar",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Brooks",
-    "firstName": "Andrew",
-    "nickname": "",
-    "period": 2
+    "firstName": "Emily",
+    "lastName": "Herzer",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Kelley",
-    "firstName": "Andrew",
-    "nickname": "Drew",
-    "period": 2
+    "firstName": "Nick",
+    "lastName": "Hill",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Lambert",
-    "firstName": "Mia",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Latham",
-    "firstName": "Willow",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Lewis",
-    "firstName": "Kaelyn",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Meade",
-    "firstName": "Hailey",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Nicholas",
-    "firstName": "Lexli",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Norris",
-    "firstName": "Allison",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Oh",
-    "firstName": "Alexandra",
-    "nickname": "Alexis",
-    "period": 2
-  },
-  {
-    "lastName": "Petrillo",
-    "firstName": "Teressa",
-    "nickname": "Tess",
-    "period": 2
-  },
-  {
-    "lastName": "Podgorny",
-    "firstName": "Payton",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Pollard",
-    "firstName": "Grace",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Privett",
-    "firstName": "Elizabeth",
-    "nickname": "Liz",
-    "period": 2
-  },
-  {
-    "lastName": "Pugmire",
-    "firstName": "Kyle",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Rattie",
-    "firstName": "Jillian",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Riccardi",
-    "firstName": "Wyatt",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Serna Diaz",
-    "firstName": "Lexa",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Spencer",
-    "firstName": "Ty",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Sullivan",
-    "firstName": "Kennedy",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Tower",
-    "firstName": "Robert",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Yocum",
-    "firstName": "Ryan",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Zimmerman",
-    "firstName": "Christian",
-    "nickname": "",
-    "period": 2
-  },
-  {
-    "lastName": "Bacon",
-    "firstName": "Amelia",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Banks",
-    "firstName": "Ayden",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Beckman",
-    "firstName": "Aiden",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Cage",
-    "firstName": "Mason",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Caldwell",
-    "firstName": "Daniel",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Goldsberry",
     "firstName": "Autumn",
-    "nickname": "",
-    "period": 3
+    "lastName": "Hottle",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Hashimi",
-    "firstName": "Aamera",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Hill",
-    "firstName": "Taylor",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Kelley",
-    "firstName": "Corinna",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Kim",
-    "firstName": "Chara",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Natysin",
-    "firstName": "Kiley",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Pobi",
-    "firstName": "Awura",
-    "nickname": "Kes",
-    "period": 3
-  },
-  {
-    "lastName": "Sandgren",
-    "firstName": "Colton",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Sandoval",
-    "firstName": "Francis",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Weber",
-    "firstName": "Hannah",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Willams",
-    "firstName": "Jesse",
-    "nickname": "JP",
-    "period": 3
-  },
-  {
-    "lastName": "Wilson",
-    "firstName": "Carolyn",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Yeckel",
-    "firstName": "Jacob",
-    "nickname": "",
-    "period": 3
-  },
-  {
-    "lastName": "Arnold",
-    "firstName": "Bethany",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Barker",
-    "firstName": "Christian",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Brumagim",
-    "firstName": "Brandon",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Brumagim",
-    "firstName": "Todd",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Cruz",
-    "firstName": "Camila",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Daugherty",
-    "firstName": "Sean",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "DeWald",
-    "firstName": "Ava",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Fitts",
-    "firstName": "Lawson",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Garcia",
-    "firstName": "Katherine",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Hill",
-    "firstName": "Alexandra",
-    "nickname": "Lexi",
-    "period": 4
-  },
-  {
-    "lastName": "Ivancic",
-    "firstName": "Faith",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Ko",
-    "firstName": "Allan",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Kochan",
-    "firstName": "Grant",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Machosky",
-    "firstName": "Michael",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Marandure",
-    "firstName": "Michael",
-    "nickname": "Mikey",
-    "period": 4
-  },
-  {
-    "lastName": "Maxedon - Garcia",
-    "firstName": "Dillon",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "McCaig",
-    "firstName": "Hannah",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Rogers",
-    "firstName": "Bayleigh",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Rumple",
-    "firstName": "Jonathan",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Sanders",
-    "firstName": "Douglas",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Smith",
-    "firstName": "Sydney",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Solarte",
-    "firstName": "Christopher",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Thorne",
-    "firstName": "Anja",
-    "nickname": "",
-    "period": 4
-  },
-  {
-    "lastName": "Venezia",
-    "firstName": "Nicholas",
-    "nickname": "Nick",
-    "period": 4
-  },
-  {
-    "lastName": "Abaca",
-    "firstName": "Casey",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Bereyl",
-    "firstName": "Landon",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Boyle",
-    "firstName": "Sebastian",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Bumbrey",
-    "firstName": "Kennedy",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Chen",
-    "firstName": "Sasha",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Cruz Franco",
-    "firstName": "Maria",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Diaz",
-    "firstName": "Lenon",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Heretick",
-    "firstName": "Riley",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Ingram",
-    "firstName": "Ashley",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Jarvandi",
-    "firstName": "Megan",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Jenkins",
-    "firstName": "Nyasha",
-    "nickname": "Divine",
-    "period": 5
-  },
-  {
-    "lastName": "Kamel",
-    "firstName": "Dakota",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Ky",
-    "firstName": "Dillion",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "MacWilliams",
-    "firstName": "Trevor",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "McKinnon",
-    "firstName": "Josiah",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Obando",
-    "firstName": "Giannella",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Percell",
-    "firstName": "Bryce",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Perez",
-    "firstName": "Jayden",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Podratsky",
-    "firstName": "Kylie",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Pourkesali",
-    "firstName": "Nataly",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Semelbauer",
-    "firstName": "Robert",
-    "nickname": "",
-    "period": 5
-  },
-  {
-    "lastName": "Stimatze",
     "firstName": "Ryan",
-    "nickname": "",
-    "period": 5
+    "lastName": "Kehoe",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Yi",
-    "firstName": "Caitlyn",
-    "nickname": "",
-    "period": 5
+    "firstName": "Caileigh",
+    "lastName": "McQuillan",
+    "period": 1,
+    "nickname": ""
   },
   {
-    "lastName": "Zeitlin",
-    "firstName": "Joseph",
-    "nickname": "",
-    "period": 5
+    "firstName": "Richard",
+    "lastName": "Menton",
+    "period": 1,
+    "nickname": ""
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Oduro",
+    "period": 1,
+    "nickname": ""
+  },
+  {
+    "firstName": "Kajal",
+    "lastName": "Panthi",
+    "period": 1,
+    "nickname": ""
+  },
+  {
+    "firstName": "Joshua",
+    "lastName": "Pool",
+    "period": 1,
+    "nickname": ""
+  },
+  {
+    "firstName": "Liz",
+    "lastName": "Quartey",
+    "period": 1,
+    "nickname": ""
+  },
+  {
+    "firstName": "Sofia",
+    "lastName": "Raval",
+    "period": 1,
+    "nickname": ""
+  },
+  {
+    "firstName": "Peyton",
+    "lastName": "Smith",
+    "period": 1,
+    "nickname": ""
+  },
+  {
+    "firstName": "Aleksya",
+    "lastName": "Soto",
+    "period": 1,
+    "nickname": ""
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Anderson",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Lauren",
+    "lastName": "Baybayan",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Grayson",
+    "lastName": "Cantarella",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "James",
+    "lastName": "Carmichael",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Isabelle",
+    "lastName": "Evans",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Jaelle",
+    "lastName": "Hinkle",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Lexi",
+    "lastName": "Johnson",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Megyn",
+    "lastName": "Jones",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Aaron",
+    "lastName": "Kim",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Amelia",
+    "lastName": "King",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Dennis",
+    "lastName": "Kraja",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "CJ",
+    "lastName": "Lantzy",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Cayden",
+    "lastName": "Laskodi",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Ellie",
+    "lastName": "Morris",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Nabintou",
+    "lastName": "Ndiaye",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Ava",
+    "lastName": "Parker",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Carter",
+    "lastName": "Quattlebaum",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "AJ",
+    "lastName": "Ridings",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Ceelee",
+    "lastName": "Roche",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Megan",
+    "lastName": "Rossi",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "William",
+    "lastName": "Sharek",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Mason",
+    "lastName": "Steeds",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Lexa",
+    "lastName": "Swekosky",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Sophy",
+    "lastName": "Velez",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "James",
+    "lastName": "Wells",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Chase",
+    "lastName": "Williams",
+    "period": 4,
+    "nickname": ""
+  },
+  {
+    "firstName": "Aleena",
+    "lastName": "Ahmed",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Melorra",
+    "lastName": "Arthur",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Alyssa",
+    "lastName": "Blubaugh",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "CJ",
+    "lastName": "Bradley",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Jeremiah",
+    "lastName": "Bushrod",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Amaya",
+    "lastName": "Crandford",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Nevan",
+    "lastName": "Crow",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Lillie",
+    "lastName": "Eiden",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Garrett",
+    "lastName": "Frazer",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Brady",
+    "lastName": "Frilles",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Natasha",
+    "lastName": "Gambhir",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Lucas",
+    "lastName": "Gaudiosi",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Vanessa",
+    "lastName": "Giron-Perez",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Mayli",
+    "lastName": "Hogarth",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Paxton",
+    "lastName": "Ihm",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Kim",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Reid",
+    "lastName": "Lynott",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Kylie",
+    "lastName": "Marsh",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Jack",
+    "lastName": "Mintz",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Aurora",
+    "lastName": "Ramos",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Jaclyn",
+    "lastName": "Robinson",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Lilly",
+    "lastName": "Romans",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Sophie",
+    "lastName": "Romans",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Krish",
+    "lastName": "Seth",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Nicole",
+    "lastName": "Zhang",
+    "period": 5,
+    "nickname": ""
+  },
+  {
+    "firstName": "Sierra",
+    "lastName": "Anderson",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Amelia",
+    "lastName": "Biddle",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Rian",
+    "lastName": "Callahan",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Brianna",
+    "lastName": "Clay",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Youssef",
+    "lastName": "Elgarawany",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Kaitlyn",
+    "lastName": "Estrella",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Sammie",
+    "lastName": "Farmer",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Avery",
+    "lastName": "Fetner",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Harris",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Samuel",
+    "lastName": "Hudson",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Summer",
+    "lastName": "Johnson",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Aween",
+    "lastName": "Jwanmery",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Sabrine",
+    "lastName": "Koundi",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Louis",
+    "lastName": "Maniacci",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Barbara",
+    "lastName": "Mathis",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Yasmin",
+    "lastName": "Ramirez",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Ella",
+    "lastName": "Rush",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Luke",
+    "lastName": "Smith",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Jordan",
+    "lastName": "Spencer",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Addison",
+    "lastName": "Taylor",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Emilyfaith",
+    "lastName": "Toso",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Makaela",
+    "lastName": "Usserman",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Christian",
+    "lastName": "Vang",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Kaitlyn",
+    "lastName": "Welch",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Abby",
+    "lastName": "Welteroth",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Josie",
+    "lastName": "Wilcoski",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Zeenat",
+    "lastName": "Ameri",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Aisha",
+    "lastName": "Boudjerada",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Ethan",
+    "lastName": "Chipps",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Hailey",
+    "lastName": "Daniels",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Ashleigh",
+    "lastName": "Daugherty",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Maya",
+    "lastName": "Davies",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Gabriella",
+    "lastName": "De La Cruz",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Moises",
+    "lastName": "Flores",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Foglio",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Samer",
+    "lastName": "Giulajan",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Evan",
+    "lastName": "Hammersley",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Keara",
+    "lastName": "Harris",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Kara",
+    "lastName": "Kaltreider",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Ashlyne",
+    "lastName": "Lassiter",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Lauren",
+    "lastName": "Lowe",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Karese",
+    "lastName": "Lowe - Tiggle",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Cameron",
+    "lastName": "Lynch",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Aliyah",
+    "lastName": "Majali",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Janay",
+    "lastName": "McFadden",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Macy",
+    "lastName": "McLean",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Monroe",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Nikias",
+    "lastName": "Nomikos",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Madisyn",
+    "lastName": "Porter",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Fiza",
+    "lastName": "Raja",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Wyatt",
+    "lastName": "Rodgers",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Logan",
+    "lastName": "Sheridan",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Brigitte",
+    "lastName": "Torrez - Castillo",
+    "period": 7,
+    "nickname": ""
+  },
+  {
+    "firstName": "Jordan",
+    "lastName": "Tran",
+    "period": 7,
+    "nickname": ""
   }
- ]
+]
