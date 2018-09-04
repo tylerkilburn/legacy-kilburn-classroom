@@ -174,23 +174,10 @@
     "nickname": ""
   },
   {
-<<<<<<< HEAD
-    "lastName": "Hackett",
-    "firstName": "Joshua",
-    "nickname": "Josh",
-    "period": 1
-  },
-  {
-    "lastName": "Ankrum",
-    "firstName": "Rosaria",
-    "nickname": "",
-    "period": 2
-=======
     "firstName": "Jaelle",
     "lastName": "Hinkle",
     "period": 4,
     "nickname": ""
->>>>>>> master
   },
   {
     "firstName": "Lexi",
