@@ -24,12 +24,6 @@
     "nickname": ""
   },
   {
-    "firstName": "Jessica",
-    "lastName": "Calhoun",
-    "period": 1,
-    "nickname": ""
-  },
-  {
     "firstName": "Aashi",
     "lastName": "Chhabra",
     "period": 1,
@@ -98,12 +92,6 @@
   {
     "firstName": "Richard",
     "lastName": "Menton",
-    "period": 1,
-    "nickname": ""
-  },
-  {
-    "firstName": "Sarah",
-    "lastName": "Oduro",
     "period": 1,
     "nickname": ""
   },
@@ -470,6 +458,12 @@
   {
     "firstName": "Brianna",
     "lastName": "Clay",
+    "period": 6,
+    "nickname": ""
+  },
+  {
+    "firstName": "Jessica",
+    "lastName": "Calhoun",
     "period": 6,
     "nickname": ""
   },
