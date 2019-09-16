@@ -67,7 +67,7 @@
   },
   {
     "lastName": "Singh",
-    "firstName": "Shaun",
+    "firstName": "Shan",
     "period": 1,
     "nickname": ""
   },
@@ -198,6 +198,12 @@
     "nickname": ""
   },
   {
+    "lastName": "Tidmore",
+    "firstName": "Lilly",
+    "period": 3,
+    "nickname": ""
+  },
+  {
     "lastName": "Truchio",
     "firstName": "Ellie",
     "period": 3,
@@ -276,6 +282,12 @@
     "nickname": ""
   },
   {
+    "lastName": "Dosaisy",
+    "firstName": "Josiah",
+    "period": 4,
+    "nickname": ""
+  },
+  {
     "lastName": "Elmaghrabi",
     "firstName": "Reeda",
     "period": 4,
@@ -284,12 +296,6 @@
   {
     "lastName": "Espinosa",
     "firstName": "Anthony",
-    "period": 4,
-    "nickname": ""
-  },
-  {
-    "lastName": "George",
-    "firstName": "Erica",
     "period": 4,
     "nickname": ""
   },
@@ -366,12 +372,6 @@
     "nickname": ""
   },
   {
-    "lastName": "Cogswell",
-    "firstName": "Kennedy",
-    "period": 5,
-    "nickname": ""
-  },
-  {
     "lastName": "Cortina",
     "firstName": "Alora",
     "period": 5,
@@ -380,12 +380,6 @@
   {
     "lastName": "Duong",
     "firstName": "Anh-vi",
-    "period": 5,
-    "nickname": ""
-  },
-  {
-    "lastName": "Farzana",
-    "firstName": "Marjan",
     "period": 5,
     "nickname": ""
   },
