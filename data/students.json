@@ -462,6 +462,12 @@
     "nickname": ""
   },
   {
+    "lastName": "Teherian",
+    "firstName": "Ali",
+    "period": 5,
+    "nickname": ""
+  },
+  {
     "lastName": "Wilkinson",
     "firstName": "Grace",
     "period": 5,
@@ -590,12 +596,6 @@
   {
     "lastName": "Stanikzai",
     "firstName": "Mansoor",
-    "period": 7,
-    "nickname": ""
-  },
-  {
-    "lastName": "Sukur",
-    "firstName": "Omer",
     "period": 7,
     "nickname": ""
   },
