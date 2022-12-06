@@ -21,7 +21,7 @@
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
-    "body-parser": "^1.15.2",
+    "body-parser": "^1.20.1",
     "build-css": "^0.2.0",
     "compression": "^1.6.2",
     "feathers": "^2.0.2",
